@@ -1,17 +1,16 @@
 import * as React from "react"
 import WebsiteLayout from "../components/WebsiteLayout"
 
-const IndexPage = () => {
+const EventsPage = () => {
   return (
     <WebsiteLayout>
     <main>
-   <h1>Index Page</h1>
+   <h1>Events Page</h1>
     </main>
     </WebsiteLayout>
   )
 }
 
-export default IndexPage
+export default EventsPage
 
-export const Head = () => <title>Home Page</title>
-
+export const Head = () => <title>EventsPage</title>
